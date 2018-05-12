@@ -1,8 +1,6 @@
 # Attributions
 
-Table of contents
-=================
-
+# Table of contents
 <!--ts-->
   * [Folders](#folders)
     * [icons/](#icons)
