@@ -5,8 +5,8 @@ Table of contents
 
 <!--ts-->
   * [Folders](#folders)
-    * [icons/](##icons/)
-    * [resources/](##resources)
+    * [icons/](#icons)
+    * [resources/](#resources)
 <!--te-->
 # Folders
 
