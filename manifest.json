@@ -1,0 +1,6 @@
+  {
+    "name": "Clip",
+    "version": "1.0",
+    "description": "A universal clipboard",
+    "manifest_version": 2
+  }
