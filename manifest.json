@@ -1,6 +1,21 @@
-  {
-    "name": "Clip",
-    "version": "1.0",
-    "description": "A universal clipboard",
-    "manifest_version": 2
-  }
+{
+	"name": "Clip",
+	"version": "1.0",
+	"description": "A universal clipboard",
+	"manifest_version": 2,
+	
+	"icons":
+	{
+    	"48": "icons/border-48.png",
+    	"96": "icons/border-96.png"
+  	},
+  	
+  	"content_scripts": 
+  	[
+    	{
+      	"matches": ["*://*.mozilla.org/*"],
+      	"js": ["clippy.js"]
+    	}
+  	]
+}
+
