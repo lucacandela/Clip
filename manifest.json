@@ -1,13 +1,13 @@
 {
-
 	"manifest-version":	2,
 	"name": "Clippy w/ Popup",
 	"version": "1.0",
+
 	"applications": {
       "gecko": {
          "id": "clip@lucacandela.com"
       }
-   },
+  	},
 
 	"description": "Adds a button to the toolbar of the browser that can be clicked",
 	"homepage_url": "https://github.com/lucacandela/Clip/tree/testo-presto",
@@ -25,7 +25,7 @@
 	"browser-action": {
 		"default_icon": "icons/icon2.svg",
 		"default_title": "Clippy",
-		"default_popup": "popup/clippy.html"
+		"default_popup": "popup/clipboard.html"
 	},
 
 	"web_accessible_resources": [
