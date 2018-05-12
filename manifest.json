@@ -5,5 +5,25 @@
 	"version": "1.0",
 
 	"description": "Adds a button to the toolbar of the browser that can be clicked",
-	"homepage_url": "https://github.com/lucacandela/Clip/tree/testo-presto"
+	"homepage_url": "https://github.com/lucacandela/Clip/tree/testo-presto",
+	"icons": {
+		"48": "icons/icon1.svg",
+		"96": "icons/icon1.svg"
+	},
+
+	"permission": [
+		"activeTab"
+		"clipboardRead"
+		"clipboardWrite"
+	],
+
+	"browser-action": {
+		"default_icon": "icons/icon2.svg",
+		"default_title": "Clippy",
+		"default_popup": "popup/clippy.html"
+	},
+
+	"web_accessible_resources": [
+		"resources/clipboard.svg"
+	]
 }
