@@ -3,6 +3,11 @@
 	"manifest-version":	2,
 	"name": "Clippy w/ Popup",
 	"version": "1.0",
+	"applications": {
+      "gecko": {
+         "id": "clip@lucacandela.com"
+      }
+   },
 
 	"description": "Adds a button to the toolbar of the browser that can be clicked",
 	"homepage_url": "https://github.com/lucacandela/Clip/tree/testo-presto",
@@ -12,8 +17,8 @@
 	},
 
 	"permission": [
-		"activeTab"
-		"clipboardRead"
+		"activeTab",
+		"clipboardRead",
 		"clipboardWrite"
 	],
 

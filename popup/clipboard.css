@@ -1,0 +1,40 @@
+html, body {
+  width: 20vw;
+}
+
+input{
+  width:auto;
+}
+
+.row {
+  display:inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  margin: 3% auto;
+  padding: 4px;
+  width:auto;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.copy:hover {
+  background-color: #CFF2F2;
+}
+
+.copy {
+  background-color: #E5F2F2;
+}
+
+.reset {
+  background-color: #FBFBC9;
+}
+
+.reset:hover {
+  background-color: #EAEA9D;
+}
